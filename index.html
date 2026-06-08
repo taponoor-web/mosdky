@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    
+    <!-- Google tag (gtag.js) - Measurement ID: AW-10874375080 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10874375080"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-10874375080');
+    </script>
+
+    <!-- Event snippet for conversion tracking (outbound click) -->
+    <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-10874375080/7yaYCJCwmLscEKiXp8Eo',
+          'event_callback': callback
+      });
+      return false;
+    }
+    </script>
+
+    <!-- Call & WhatsApp tracking with conversion support -->
+    <script>
+    function makePhoneCall(phoneNumber) {
+      var cleanNumber = String(phoneNumber).replace(/[\s\-]/g, '');
+      if (!cleanNumber.startsWith('+') && !cleanNumber.startsWith('00')) {
+        if (cleanNumber.startsWith('965')) {
+          cleanNumber = '+' + cleanNumber;
+        } else {
+          cleanNumber = '+965' + cleanNumber;
+        }
+      }
+      var telUrl = 'tel:' + cleanNumber;
+      if (typeof gtag_report_conversion === 'function') {
+        gtag_report_conversion(telUrl);
+      }
+      setTimeout(function() {
+        window.location.href = telUrl;
+      }, 100);
+      return false;
+    }
+
+    function trackWhatsAppClick(url) {
+      if (typeof gtag_report_conversion === 'function') {
+        gtag_report_conversion(url);
+      }
+      setTimeout(function() {
+        window.open(url, '_blank');
+      }, 100);
+      return false;
+    }
+    </script>
+
+    <!-- Structured Data for SEO - فني صحي الكويت -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Plumber",
+        "name": "فني صحي الكويت | معلم صحي محترف",
+        "description": "أفضل فني صحي ومعلم صحي محترف في الكويت لجميع أعمال السباكة والصيانة الصحية، تسليك مجاري، تمديدات صحية، تصليح تسربات، خدمة سريعة لجميع المناطق.",
+        "telephone": "+96590904353",
+        "areaServed": "Kuwait",
+        "serviceType": "فني صحي, معلم صحي, تسليك مجاري, تمديدات صحية, تصليح تسربات, صحي الكويت",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "Kuwait"
+        },
+        "openingHours": "Mo-Su 07:00-23:00"
+    }
+    </script>
+
+    <title>فني صحي الكويت | معلم صحي محترف لجميع أعمال السباكة والصيانة | 90904353</title>
+    <meta name="description" content="✅ أفضل فني صحي ومعلم صحي محترف في الكويت ✅ تسليك مجاري، تمديدات صحية، تصليح تسربات، خدمة سريعة لجميع المناطق (حطين، جابر العلي، غرب عبدالله مبارك) - اتصل 90904353">
+    <meta name="keywords" content="فني صحي الكويت, معلم صحي, صحي الكويت, تسليك مجاري, تمديدات صحية, تصليح تسربات, صحي حطين, صحي جابر العلي, صحي غرب عبدالله مبارك, سباك الكويت">
+    <meta name="location" content="Kuwait">
+
+    <!-- Fonts & Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary-blue: #0077b6;
+            --deep-ocean: #023e8a;
+            --warm-sand: #f8f9fa;
+            --clean-white: #FFFFFF;
+            --dark-charcoal: #2C2C2C;
+            --accent-teal: #00b4d8;
+            --highlight-gold: #ffb703;
+            --trust-green: #2a9d8f;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Cairo', sans-serif;
+        }
+        
+        body {
+            background: var(--warm-sand);
+            color: var(--dark-charcoal);
+            line-height: 1.6;
+        }
+        
+        .scrolling-banner {
+            background: var(--deep-ocean);
+            color: var(--highlight-gold);
+            padding: 12px 0;
+            overflow: hidden;
+            font-weight: 700;
+            font-size: 0.9rem;
+            border-bottom: 2px solid var(--primary-blue);
+        }
+        
+        .scrolling-content {
+            display: inline-block;
+            white-space: nowrap;
+            animation: scroll 22s linear infinite;
+            padding-left: 100%;
+        }
+        
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-100%); }
+        }
+        
+        .navbar {
+            background: var(--dark-charcoal);
+            color: white;
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            color: var(--primary-blue);
+            font-weight: 900;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        }
+        
+        .logo span {
+            color: var(--highlight-gold);
+            font-size: 0.9rem;
+            display: block;
+        }
+        
+        .phone-display {
+            color: var(--primary-blue);
+            font-weight: 700;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            cursor: pointer;
+            transition: transform 0.2s;
+            background: rgba(255,255,255,0.12);
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            border: 1px solid var(--primary-blue);
+        }
+        
+        .phone-display:hover {
+            transform: scale(1.05);
+            background: rgba(0, 119, 182, 0.2);
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, #1a2a3a, #0a3a4a);
+            color: white;
+            padding: 6rem 2rem 7rem;
+            text-align: center;
+            min-height: 65vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-image: url('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.75);
+        }
+        
+        .hero h1, .hero p, .hero-buttons {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .hero h1 {
+            font-size: 2.3rem;
+            margin-bottom: 1.5rem;
+            font-weight: 900;
+            color: var(--highlight-gold);
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 2rem;
+            color: #e0f2fe;
+            font-weight: 500;
+        }
+        
+        .hero-buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .hero-btn {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            padding: 0.9rem 2rem;
+            border-radius: 60px;
+            color: white;
+            text-decoration: none;
+            font-weight: 800;
+            transition: all 0.3s;
+            background: var(--trust-green);
+            font-size: 1.1rem;
+            box-shadow: 0 4px 15px rgba(42, 157, 143, 0.5);
+            border: none;
+            cursor: pointer;
+        }
+        
+        .hero-btn:hover {
+            transform: translateY(-5px);
+            filter: brightness(1.05);
+        }
+        
+        .secondary-btn {
+            background: var(--deep-ocean);
+            box-shadow: 0 4px 15px rgba(2, 62, 138, 0.5);
+        }
+        
+        .whatsapp-btn {
+            background: #25D366;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+        }
+        
+        .services {
+            padding: 5rem 2rem;
+            background: var(--warm-sand);
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: var(--deep-ocean);
+            font-size: 2rem;
+            position: relative;
+            font-weight: 800;
+        }
+        
+        .section-title::after {
+            content: "";
+            display: block;
+            width: 100px;
+            height: 4px;
+            background: var(--primary-blue);
+            margin: 0.8rem auto 0;
+            border-radius: 5px;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .service-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+            border-right: 5px solid var(--primary-blue);
+            text-align: center;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 30px rgba(0,0,0,0.1);
+        }
+        
+        .service-icon {
+            font-size: 2.8rem;
+            color: var(--deep-ocean);
+            margin-bottom: 1.2rem;
+        }
+        
+        .service-list {
+            list-style: none;
+            padding-right: 0;
+            text-align: right;
+            margin-top: 1rem;
+        }
+        
+        .service-list li {
+            margin-bottom: 0.8rem;
+            position: relative;
+            padding-right: 28px;
+            font-weight: 500;
+        }
+        
+        .service-list li::before {
+            content: "✓";
+            color: var(--accent-teal);
+            font-weight: bold;
+            position: absolute;
+            right: 0;
+            font-size: 1.1rem;
+        }
+        
+        .floating-btns {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            display: flex;
+            flex-direction: column;
+            z-index: 1000;
+            gap: 1rem;
+        }
+        
+        .floating-btn {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            padding: 1rem 1.8rem;
+            border-radius: 50px;
+            color: white;
+            background: var(--trust-green);
+            text-decoration: none;
+            font-weight: 800;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            border: none;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        
+        .floating-btn:hover {
+            transform: scale(1.07);
+        }
+        
+        .floating-secondary {
+            background: var(--deep-ocean);
+        }
+        
+        .floating-whatsapp {
+            background: #25D366;
+        }
+        
+        .why-us {
+            padding: 5rem 2rem;
+            background: white;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 3rem auto 0;
+        }
+        
+        .feature-item {
+            text-align: center;
+            padding: 1.5rem;
+            background: var(--warm-sand);
+            border-radius: 20px;
+        }
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            color: var(--primary-blue);
+            margin-bottom: 1rem;
+        }
+        
+        .simple-footer {
+            background: var(--dark-charcoal);
+            color: #ddd;
+            padding: 2rem;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+        
+        .simple-footer p {
+            margin: 0.5rem 0;
+        }
+        
+        .footer-phone {
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-top: 0.8rem;
+            cursor: pointer;
+            transition: transform 0.2s;
+            color: var(--primary-blue);
+        }
+        
+        .footer-phone:hover {
+            transform: scale(1.05);
+            color: var(--highlight-gold);
+        }
+        
+        .search-tags {
+            background-color: #e6f4f5;
+            padding: 40px 20px;
+            text-align: center;
+            border-top: 1px solid #b0d4e8;
+        }
+        
+        .search-tags h3 {
+            color: var(--deep-ocean);
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+        
+        .tags-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+        }
+        
+        .service-tag {
+            background: linear-gradient(135deg, #023e8a 0%, #0077b6 100%);
+            padding: 8px 20px;
+            border-radius: 40px;
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            border: 1px solid var(--highlight-gold);
+            cursor: default;
+            transition: 0.2s;
+        }
+        
+        .service-tag:hover {
+            transform: translateY(-2px);
+            background: #00b4d8;
+        }
+        
+        .types-section {
+            padding: 5rem 2rem;
+            background: linear-gradient(to bottom, #f8f9fa, #e0f2fe);
+        }
+        
+        .types-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.8rem;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        
+        .type-item {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: 0.2s;
+            border-bottom: 3px solid var(--primary-blue);
+        }
+        
+        .type-item h3 {
+            color: var(--deep-ocean);
+            margin-bottom: 0.5rem;
+        }
+        
+        .packages {
+            padding: 5rem 2rem;
+            background: var(--warm-sand);
+        }
+        
+        .packages-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .package-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 25px;
+            box-shadow: 0 12px 24px rgba(0,0,0,0.08);
+            text-align: center;
+            transition: 0.3s;
+            border-top: 6px solid var(--primary-blue);
+        }
+        
+        .package-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .package-title {
+            font-size: 1.6rem;
+            color: var(--deep-ocean);
+            margin-bottom: 1rem;
+            font-weight: 800;
+        }
+        
+        .package-price {
+            font-size: 1.4rem;
+            color: var(--trust-green);
+            font-weight: bold;
+            margin-bottom: 1.5rem;
+        }
+        
+        .package-features {
+            list-style: none;
+            margin-bottom: 2rem;
+        }
+        
+        .package-features li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .package-btn {
+            display: inline-block;
+            padding: 0.8rem 1.8rem;
+            background: var(--deep-ocean);
+            color: white;
+            text-decoration: none;
+            border-radius: 40px;
+            font-weight: bold;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .package-btn:hover {
+            background: var(--primary-blue);
+            transform: scale(1.03);
+            color: white;
+        }
+        
+        .testimonials {
+            padding: 5rem 2rem;
+            background: white;
+        }
+        
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        
+        .testimonial-card {
+            background: var(--warm-sand);
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.05);
+        }
+        
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 1rem;
+            font-size: 1rem;
+        }
+        
+        .testimonial-author {
+            font-weight: bold;
+            color: var(--deep-ocean);
+        }
+        
+        .contact-form {
+            padding: 5rem 2rem;
+            background: #e9f5f9;
+        }
+        
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 30px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+            color: var(--dark-charcoal);
+        }
+        
+        .form-group input, .form-group textarea, .form-group select {
+            width: 100%;
+            padding: 0.9rem;
+            border: 1px solid #cbd5e1;
+            border-radius: 14px;
+            font-size: 1rem;
+            background: #fefce8;
+        }
+        
+        .submit-btn {
+            background: var(--deep-ocean);
+            color: white;
+            border: none;
+            padding: 1rem;
+            border-radius: 40px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+            width: 100%;
+            font-size: 1.1rem;
+        }
+        
+        .submit-btn:hover {
+            background: var(--primary-blue);
+            color: white;
+        }
+        
+        .hours-badge {
+            background: var(--accent-teal);
+            color: white;
+            padding: 0.5rem 1.5rem;
+            border-radius: 40px;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 1rem;
+            animation: pulse 2s infinite;
+        }
+        
+        .contact-info {
+            background: #d9eef5;
+            padding: 2rem;
+            border-radius: 25px;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        
+        .regions-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.6rem;
+            margin-top: 1rem;
+        }
+        
+        .region-badge {
+            background: white;
+            padding: 0.3rem 0.9rem;
+            border-radius: 30px;
+            font-weight: bold;
+            color: var(--deep-ocean);
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 1.7rem; }
+            .navbar { flex-direction: column; gap: 0.5rem; }
+            .logo { font-size: 1.2rem; }
+            .floating-btns { bottom: 1rem; right: 1rem; }
+            .floating-btn { padding: 0.8rem 1.3rem; font-size: 0.8rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="scrolling-banner">
+        <div class="scrolling-content">
+            🔧 فني صحي الكويت | معلم صحي محترف | تسليك مجاري | تمديدات صحية | تصليح تسربات | خدمة سريعة لجميع المناطق | اتصل الآن: 90904353
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">🔧 فني صحي الكويت <span>معلم صحي محترف - خدمة سريعة 24/7</span></div>
+        <div class="phone-display" onclick="makePhoneCall('90904353')">
+            <i class="fas fa-phone"></i> 90904353
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hours-badge">
+            <i class="fas fa-wrench"></i> فني صحي متخصص | خدمة فورية لجميع مناطق الكويت
+        </div>
+        <h1>🔧 فني صحي الكويت | معلم صحي محترف لجميع أعمال السباكة والصيانة الصحية</h1>
+        <p>أفضل فني صحي ومعلم صحي محترف في الكويت - تسليك مجاري، تمديدات صحية، تصليح تسربات، تركيب وصيانة الأدوات الصحية - خدمة سريعة لجميع المناطق (حطين، جابر العلي، غرب عبدالله مبارك)</p>
+        <div class="hero-buttons">
+            <button class="hero-btn secondary-btn" onclick="makePhoneCall('90904353')">
+                <i class="fas fa-phone-volume"></i>
+                اتصل الآن فني صحي (استشارة مجانية)
+            </button>
+            <button class="hero-btn whatsapp-btn" onclick="trackWhatsAppClick('https://wa.me/96590904353')">
+                <i class="fab fa-whatsapp"></i>
+                واتساب - حجز فوري
+            </button>
+        </div>
+    </section>
+
+    <section class="services">
+        <h2 class="section-title">خدمات فني صحي الكويت - حلول متكاملة</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-wrench service-icon"></i>
+                <h3>فني صحي محترف</h3>
+                <ul class="service-list">
+                    <li>تنفيذ جميع أعمال السباكة والصيانة الصحية للمنازل والشقق والفلل</li>
+                    <li>تركيب وصيانة جميع الأدوات الصحية والحمامات والمغاسل</li>
+                    <li>كشف وتصليح تسربات المياه بأحدث الأجهزة</li>
+                    <li>خدمة سريعة واحترافية بضمان الجودة</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-toilet service-icon"></i>
+                <h3>تسليك مجاري و بالوعات</h3>
+                <ul class="service-list">
+                    <li>تسليك المجاري والبالوعات ومعالجة انسداد المياه بفعالية</li>
+                    <li>استخدام معدات الضغط العالي لحل الانسدادات</li>
+                    <li>صيانة خطوط الصرف الصحي ومنع الروائح الكريهة</li>
+                    <li>معلم صحي خبير لجميع مشاكل الصرف</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-water service-icon"></i>
+                <h3>تمديدات صحية و تصليح تسربات</h3>
+                <ul class="service-list">
+                    <li>تمديد مواسير المياه والصرف الصحي بأفضل الطرق الحديثة</li>
+                    <li>كشف تسربات المياه الدقيقة وتصليحها بدون تكسير</li>
+                    <li>تركيب سخانات وخلاطات وشفاطات</li>
+                    <li>خدمات صحي الكويت لجميع أعمال المياه</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="types-section">
+        <h2 class="section-title">نقدم أفضل خدمات الصحي في الكويت</h2>
+        <div class="types-grid">
+            <div class="type-item"><h3>فني صحي</h3><p>لجميع مشاكل السباكة والصيانة المنزلية</p></div>
+            <div class="type-item"><h3>معلم صحي</h3><p>تركيب وصيانة الأدوات الصحية والحمامات</p></div>
+            <div class="type-item"><h3>تسليك مجاري</h3><p>حلول سريعة للانسدادات والبالوعات</p></div>
+            <div class="type-item"><h3>تمديدات صحية</h3><p>مواسير مياه وصرف بجودة عالية</p></div>
+            <div class="type-item"><h3>تصليح تسربات</h3><p>كشف وإصلاح التسربات بدقة</p></div>
+            <div class="type-item"><h3>صحي الكويت</h3><p>خدمات شاملة لجميع المناطق</p></div>
+        </div>
+    </section>
+
+    <section class="why-us">
+        <h2 class="section-title">لماذا تختار فني صحي الكويت؟</h2>
+        <div class="features">
+            <div class="feature-item"><i class="fas fa-tools feature-icon"></i><h3>فنيون معتمدون</h3><p>معلم صحي محترف بخبرة سنوات في حل مشاكل السباكة</p></div>
+            <div class="feature-item"><i class="fas fa-clock feature-icon"></i><h3>خدمة سريعة 24/7</h3><p>الوصول إلى أي منطقة في الكويت خلال وقت قياسي</p></div>
+            <div class="feature-item"><i class="fas fa-hand-holding-usd feature-icon"></i><h3>أسعار شفافة</h3><p>تقييم مجاني قبل البدء وأسعار تنافسية بدون رسوم خفية</p></div>
+            <div class="feature-item"><i class="fas fa-shield-alt feature-icon"></i><h3>ضمان على العمل</h3><p>جميع أعمال الصيانة والتمديدات مضمونة لأطول فترة</p></div>
+        </div>
+    </section>
+
+    <section class="packages">
+        <h2 class="section-title">باقات الصيانة الصحية - اختر الخدمة المناسبة</h2>
+        <div class="packages-grid">
+            <div class="package-card">
+                <h3 class="package-title">فحص و تسليك مجاري</h3>
+                <div class="package-price">سعر اقتصادي</div>
+                <ul class="package-features">
+                    <li>تسليك جميع أنواع البالوعات والمجاري</li>
+                    <li>كشف أولي مجاني</li>
+                    <li>ضمان ضد الانسداد لمدة شهر</li>
+                    <li>خدمة سريعة خلال ساعتين</li>
+                </ul>
+                <button class="package-btn" onclick="makePhoneCall('90904353')">طلب تسليك فوري</button>
+            </div>
+            <div class="package-card">
+                <h3 class="package-title">تركيب و صيانة صحية</h3>
+                <div class="package-price">عرض شامل</div>
+                <ul class="package-features">
+                    <li>تركيب خلاطات، سخانات، مراحيض</li>
+                    <li>معلم صحي لصيانة جميع الأدوات</li>
+                    <li>تمديدات صحية جديدة أو تجديد</li>
+                    <li>خصم على قطع الغيار</li>
+                </ul>
+                <button class="package-btn" onclick="makePhoneCall('90904353')">احجز معلم صحي</button>
+            </div>
+            <div class="package-card">
+                <h3 class="package-title">كشف و تصليح تسربات</h3>
+                <div class="package-price">تكنولوجيا حديثة</div>
+                <ul class="package-features">
+                    <li>كشف تسربات المياه بدون تكسير</li>
+                    <li>تصليح فوري لمواسير المياه والصرف</li>
+                    <li>حلول دائمة لمشاكل الرطوبة</li>
+                    <li>تقرير مفصل بالعمل</li>
+                </ul>
+                <button class="package-btn" onclick="makePhoneCall('90904353')">طلب كشف تسربات</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2 class="section-title">آراء عملائنا في خدمات فني صحي الكويت</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card"><p class="testimonial-text">"تعاملت مع فني صحي الكويت لتركيب سخان وخلاط، المعلم كان محترفاً وسريعاً. أنصح بهم بشدة لكل أعمال الصيانة الصحية."</p><p class="testimonial-author">- أبو يوسف – حولي</p></div>
+            <div class="testimonial-card"><p class="testimonial-text">"عانيت من انسداد المجاري، اتصلت على الرقم 90904353 وجاء الفني خلال ساعة وحل المشكلة نهائياً. خدمة ممتازة وأسعار معقولة."</p><p class="testimonial-author">- أم سلمان – الفروانية</p></div>
+            <div class="testimonial-card"><p class="testimonial-text">"أفضل معلم صحي في الكويت. تعامل راقي، كشف تسربات دقيق وأصلحها بدون تكسير. شكراً على الاحترافية."</p><p class="testimonial-author">- مهند – السالمية</p></div>
+        </div>
+    </section>
+
+    <section class="contact-form" id="contact">
+        <h2 class="section-title">احجز فني صحي الآن - خدمة فورية في جميع مناطق الكويت</h2>
+        <div class="form-container">
+            <form id="contactForm">
+                <div class="form-group"><label for="name">الاسم الكامل</label><input type="text" id="name" name="name" required></div>
+                <div class="form-group"><label for="phone">رقم الهاتف للواتساب</label><input type="tel" id="phone" name="phone" required></div>
+                <div class="form-group"><label for="area">المنطقة بالكويت</label><input type="text" id="area" name="area" required placeholder="مثال: حطين، جابر العلي، غرب عبدالله مبارك، حولي، الفروانية"></div>
+                <div class="form-group"><label for="service">نوع الخدمة المطلوبة</label>
+                    <select id="service" name="service" required>
+                        <option value="">اختر الخدمة الصحية</option>
+                        <option value="فني صحي - عام">فني صحي لجميع الأعمال</option>
+                        <option value="معلم صحي - تركيب وصيانة">معلم صحي (تركيب وصيانة)</option>
+                        <option value="تسليك مجاري">تسليك مجاري وبالوعات</option>
+                        <option value="تمديدات صحية">تمديدات صحية ومواسير</option>
+                        <option value="تصليح تسربات">كشف وتصليح تسربات المياه</option>
+                    </select>
+                </div>
+                <div class="form-group"><label for="message">تفاصيل المشكلة (نوع العطل، الموقع، الوقت المناسب)</label><textarea id="message" name="message" placeholder="مثال: أعاني من انسداد بالوعة المطبخ، أرجو إرسال فني صحي اليوم بعد المغرب"></textarea></div>
+                <button type="submit" class="submit-btn">اطلب فني صحي الآن</button>
+            </form>
+        </div>
+        <div class="contact-info">
+            <i class="fas fa-clock"></i> <strong>خدمة فورية:</strong> 24 ساعة طوال أيام الأسبوع (من 7 صباحاً حتى 11 مساءً)
+            <br><br>
+            <i class="fas fa-map-marked-alt"></i> <strong>نغطي جميع مناطق الكويت:</strong> العاصمة، حولي، الفروانية، الأحمدي، مبارك الكبير، الجهراء، حطين، جابر العلي، غرب عبدالله مبارك
+            <div class="regions-list"><span class="region-badge">صحي حطين</span> <span class="region-badge">صحي جابر العلي</span> <span class="region-badge">صحي غرب عبدالله مبارك</span> <span class="region-badge">صحي السالمية</span> <span class="region-badge">صحي الفروانية</span> <span class="region-badge">صحي حولي</span></div>
+            <div style="margin-top:1rem;"><strong>📞 اتصل بفني صحي الكويت الآن:</strong> <span style="font-weight:bold; font-size:1.3rem; cursor:pointer;" onclick="makePhoneCall('90904353')">90904353</span></div>
+            <div style="margin-top:1rem;">🔧 <strong>فني صحي الكويت - معلم صحي محترف | ضمان الجودة والسرعة في جميع مناطق الكويت</strong></div>
+        </div>
+    </section>
+
+    <div class="search-tags">
+        <h3>🔍 كلمات البحث الأكثر طلباً - فني صحي و معلم صحي بالكويت</h3>
+        <div class="tags-container">
+            <span class="service-tag">صحي</span><span class="service-tag">فني صحي</span>
+            <span class="service-tag">معلم صحي</span><span class="service-tag">صحى</span>
+            <span class="service-tag">صحي الكويت</span><span class="service-tag">صحي حطين</span>
+            <span class="service-tag">صحي جابر العلي</span><span class="service-tag">صحي غرب عبدالله مبارك</span>
+            <span class="service-tag">تسليك مجاري</span><span class="service-tag">تمديدات صحية</span>
+            <span class="service-tag">تصليح تسربات</span><span class="service-tag">سباك الكويت</span>
+            <span class="service-tag">صيانة حمامات</span><span class="service-tag">تركيب سخانات</span>
+        </div>
+    </div>
+
+    <div class="floating-btns">
+        <button class="floating-btn floating-secondary" onclick="makePhoneCall('90904353')">
+            <i class="fas fa-phone-volume"></i> اتصل فني صحي
+        </button>
+        <button class="floating-btn floating-whatsapp" onclick="trackWhatsAppClick('https://wa.me/96590904353')">
+            <i class="fab fa-whatsapp"></i> واتساب - حجز فوري
+        </button>
+    </div>
+
+    <div class="simple-footer">
+        <p>🔧 فني صحي الكويت - معلم صحي محترف لجميع أعمال السباكة والصيانة الصحية | تسليك مجاري، تمديدات صحية، تصليح تسربات | خدمة سريعة لجميع المناطق</p>
+        <div class="footer-phone" onclick="makePhoneCall('90904353')"><i class="fas fa-phone-alt"></i> 90904353 - احجز فني صحي محترف الآن</div>
+        <p>نخدم جميع مناطق الكويت بأسعار تنافسية وجودة عالية - ضمان على جميع الأعمال الصحية</p>
+        <p>جميع الحقوق محفوظة © 2026 | فني صحي الكويت - خدمة سباكة وصيانة صحية موثوقة</p>
+    </div>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            if (typeof gtag_report_conversion === 'function') gtag_report_conversion();
+            alert('شكراً لتواصلك مع فني صحي الكويت! سنقوم بالاتصال بك فوراً لتأكيد الحجز وإرسال فني/معلم صحي محترف إلى منطقتك.');
+            this.reset();
+        });
+        
+        window.makePhoneCall = makePhoneCall;
+        window.trackWhatsAppClick = trackWhatsAppClick;
+
+        var phoneElements = document.querySelectorAll('[onclick*="makePhoneCall"], .phone-display, .footer-phone, .hero-btn, .package-btn, .floating-btn');
+        phoneElements.forEach(function(el) {
+            el.addEventListener('touchstart', function(e) {
+                if (this.getAttribute('onclick')) {
+                    let onclickAttr = this.getAttribute('onclick');
+                    if (onclickAttr.includes('makePhoneCall')) {
+                        let match = onclickAttr.match(/'([^']+)'/);
+                        if (match && match[1]) {
+                            e.preventDefault();
+                            makePhoneCall(match[1]);
+                            return false;
+                        }
+                    } else if (onclickAttr.includes('trackWhatsAppClick')) {
+                        let matchUrl = onclickAttr.match(/'(https?:\/\/[^']+)'/);
+                        if (matchUrl && matchUrl[1]) {
+                            e.preventDefault();
+                            trackWhatsAppClick(matchUrl[1]);
+                            return false;
+                        }
+                    }
+                }
+            }, { passive: false });
+        });
+    </script>
+</body>
+</html>
