@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     
-    <!-- Google tag (gtag.js) - Measurement ID: AW-10874375080 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10874375080"></script>
+    <!-- Google tag (gtag.js) - NEW TAG ID: AW-18179877507 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18179877507"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'AW-10874375080');
+      gtag('config', 'AW-18179877507');
     </script>
 
-    <!-- Event snippet for conversion tracking (outbound click) -->
+    <!-- Event snippet for نقرة صادرة إلى الخارج conversion page -->
     <script>
     function gtag_report_conversion(url) {
       var callback = function () {
@@ -22,7 +22,7 @@
         }
       };
       gtag('event', 'conversion', {
-          'send_to': 'AW-10874375080/7yaYCJCwmLscEKiXp8Eo',
+          'send_to': 'AW-18179877507/pb81CJ_fo7scEIPV69xD',
           'event_callback': callback
       });
       return false;
@@ -664,6 +664,12 @@
             animation: pulse 2s infinite;
         }
         
+        @keyframes pulse {
+            0% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.03); opacity: 0.95; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+        
         .contact-info {
             background: #d9eef5;
             padding: 2rem;
@@ -898,7 +904,9 @@
     <script>
         document.getElementById('contactForm').addEventListener('submit', function(e) {
             e.preventDefault();
-            if (typeof gtag_report_conversion === 'function') gtag_report_conversion();
+            if (typeof gtag_report_conversion === 'function') {
+                gtag_report_conversion();
+            }
             alert('شكراً لتواصلك مع فني صحي الكويت! سنقوم بالاتصال بك فوراً لتأكيد الحجز وإرسال فني/معلم صحي محترف إلى منطقتك.');
             this.reset();
         });
@@ -906,6 +914,7 @@
         window.makePhoneCall = makePhoneCall;
         window.trackWhatsAppClick = trackWhatsAppClick;
 
+        // Ensure touch events trigger conversion for mobile devices
         var phoneElements = document.querySelectorAll('[onclick*="makePhoneCall"], .phone-display, .footer-phone, .hero-btn, .package-btn, .floating-btn');
         phoneElements.forEach(function(el) {
             el.addEventListener('touchstart', function(e) {
